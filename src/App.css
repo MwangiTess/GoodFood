@@ -112,15 +112,13 @@
   font-size: 20px;
 }
 .title {
-  padding: 20px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 11px;
-  line-height: 11px;
+  font-size: 10px;
   letter-spacing: 1px;
   color: #082431;
   opacity: 0.5;
+  margin-left: 20px;
 }
 
 .sidebar-list-item .dashboard {
