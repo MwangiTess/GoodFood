@@ -1,47 +1,52 @@
-# Getting Started with Create React App
+### GoodFood Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a dashboard application built using React and TypeScript. It provides various functionalities for managing food orders, analyzing revenue, and monitoring key metrics related to food service operations.
 
-## Available Scripts
+#### Requirements
 
-In the project directory, you can run:
+- **React and TypeScript**: The application is built using React for the front-end UI components and TypeScript for type safety and better code organization.
 
-### `npm start`
+- **Additional Libraries/Frameworks**: The project uses React Chart.js 2 for rendering interactive charts and graphs. This library enhances data visualization capabilities.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Installation and Usage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To run the application locally, follow these steps:
 
-### `npm test`
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install` or `yarn install`.
+4. Start the development server using `npm start` or `yarn start`.
+5. Access the application in your browser at `http://localhost:3000`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Folder Structure
 
-### `npm run build`
+- **Assets**: Contains SVG icons and other static assets used in the application.
+- **Charts**: Includes React components responsible for rendering various charts and graphs.
+- **Components**: Contains reusable UI components such as Header, Sidebar, and OrderedTable.
+- **Pages**: Includes main application pages like Home, Dashboard, and others.
+- **Styles**: Contains CSS files for styling components and layouts.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Running the Application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Once the development server is running, you can access different sections of the dashboard:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Dashboard**: Provides an overview of key metrics and insights.
+- **Food Order**: Allows users to manage food orders and view order details.
+- **Manage Menu**: Enables editing and management of food menu items.
+- **Customer Review**: Displays customer reviews and feedback.
+- **Settings**: Provides options for configuring application settings.
+- **Payments**: Manages payment methods and transactions.
+- **Accounts**: Manages user accounts and permissions.
+- **Help**: Provides support and assistance resources.
 
-### `npm run eject`
+#### Structure and Components
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Header**: Displays the application logo, search input, and navigation options.
+- **Sidebar**: Provides a menu for navigating different sections of the application.
+- **Home Page**: Contains various sections like Revenue, Order Time, Your Rating, Most Ordered Food, etc., along with interactive charts and data visualization components.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Additional Notes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Ensure that you have Node.js and npm (or yarn) installed on your machine to run the application.
+- This README provides an overview of the project structure and functionalities. Refer to code comments and component documentation for detailed information.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# GoodFood
