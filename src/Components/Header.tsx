@@ -3,10 +3,7 @@ import dropdown from '../Assets/Icons/dropdown.svg'
 import notification from '../Assets/Icons/notification.svg'
 import burger2 from '../Assets/Icons/burger2.svg'
 
-type Props = {
- 
-}
-export const Header = ({}: Props) => {
+export const Header = () => {
     return ( 
         <header className="header">
             <div className='logo-icon'>
@@ -20,7 +17,10 @@ export const Header = ({}: Props) => {
                 <img src={burger2} alt="burger icon" className='burger-icon'/>
                 <p className='burger-name'>Delicious Burger</p>
                 <img src={dropdown} alt="dropdown" className='dropdown-icon'/>
+                <div>
                 <img src={notification} alt="notifiaction" className='notification-icon'/>
+                <span className="badge"></span>
+                </div>
             </div>
         </header>
     );
