@@ -30,6 +30,7 @@ export const OrderedTable = ({}: Props) => {
                 <th>Hot Chicken Wings</th>
                 <th>IDR 45.000</th>
             </tr>
+            <th></th>
             </table>
         </div>
     );

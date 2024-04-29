@@ -6,10 +6,7 @@ import downicon from "../Assets/Icons/downIcon.svg";
 import { Revenue } from "../Charts/Revenue";
 
 
-type Props = {
- 
-}
-export const Home = ({}: Props) => {
+export const Home = () => {
     return (
         <main className='main-container'>
             <div className='main-title'>
@@ -49,8 +46,8 @@ export const Home = ({}: Props) => {
             <br />
             <div className="sectionb">
                 <div className="grid1">
-                    <p>Your Rating</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <p className="titledata">Your Rating</p>
+                    <p className="titledata" >Lorem ipsum dolor sit amet, consectetur</p>
                     <div className="rating">
                     <div className="circlerating">
                         <div className="circleblue"> 85% hygiene</div>
@@ -61,8 +58,8 @@ export const Home = ({}: Props) => {
                     
                 </div>
                 <div className="grid2" >
-                    <p>Most Ordered Food</p>
-                    <p>Adipiscing elit, sed do eiusmod tempor</p>
+                    <p className="titledata" >Most Ordered Food</p>
+                    <p className="titledata" >Adipiscing elit, sed do eiusmod tempor</p>
                     <OrderedTable />
                 </div>
                 <div className="grid3">

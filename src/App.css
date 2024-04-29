@@ -177,19 +177,19 @@
 }
 .titledata{
   font-size: 12px;
+  padding: 8px;
 }
 .salesinfo{
   font-size: 12px;
-  padding: 5px;
+  
 }
 .amount {
   font-weight: 500;
   font-size: 18px;
-  padding: 5px
+  
 }
 .percentageinfo {
   font-size: 12px;
-  padding: 5px;
 }
 .arrowup{
   color: #32D16D;
@@ -198,8 +198,8 @@
   color: #F2383A;
 }
 .charts {
-  width: 700px; 
-  min-height: 250px;
+  width: 600px; 
+  min-height: 200px;
 }
 
 .time-pie{
@@ -217,7 +217,7 @@
   font-size: 14px;
   position: absolute;
   top: 140px;
-  right: 300px;
+  right: 250px;
   padding: 20px;
 }
 
@@ -238,8 +238,8 @@ hr {
 }
 .circleblue{
   background-color: #F99C30;
-  width: 250px;
-  height: 250px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -252,28 +252,29 @@ hr {
 .circleorange{
   position: absolute;
   background-color: #6463D6;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  left: 90px;
+  text-align: center;
+  left: 100px;
   top: 20px;
   opacity: 0.5;
   color: white;
-  font-size: 16px;
+  font-size: 17px;
 }
 .circleindigo{
   position: absolute;
   background-color: #2FBFDE;
-  width: 200px;
-  height: 200px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 175px;
+  top: 145px;
   right: 5px;
   color: white;
   font-size: 16px;
@@ -303,6 +304,7 @@ hr {
   padding: 5px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-height: 400px;
 }
 
 .grid1 p,
@@ -340,5 +342,4 @@ hr {
   border-bottom: 1px  solid #DBE5EB;
   font-size: 12px;
   font-weight: 400;
-  
 }

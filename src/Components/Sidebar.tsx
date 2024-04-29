@@ -7,10 +7,7 @@ import payments from '../Assets/Icons/payment.svg'
 import accounts from '../Assets/Icons/accounts.svg'
 import help from '../Assets/Icons/help.svg'
 
-type Props = {
- 
-}
-export const Sidebar = ({}: Props) => {
+export const Sidebar = () => {
     return (
         <div>      
             <ul className='sidebar-list'>
