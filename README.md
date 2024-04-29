@@ -2,6 +2,8 @@
 
 This project is a dashboard application built using React and TypeScript. It provides various functionalities for managing food orders, analyzing revenue, and monitoring key metrics related to food service operations.
 
+![Dashboard image](/src/Assets/dashboard-image.png)
+
 #### Requirements
 
 - **React and TypeScript**: The application is built using React for the front-end UI components and TypeScript for type safety and better code organization.
